@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button {
+            border-radius: 4px;
+            border-color: black;
+        }
+        form {
+            color:black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="git">
+        <label for="fname">First Name: *</label>
+        <input type="text" id="fname" name="fname"></input>
+        <br>
+        <label for="fname">Last Name: *</label>
+        <input type="text" id="lname" name="lname"></input>
+        <br>
+        <label for="email">Email Address: *</label>
+        <input type="text" id="email" name="email"></input>
+        <br>
+        <label for="Password">Password: *</label>
+        <input type="text" id="fname" name="password"></input>
+        <br>
+        <label for="Confirm Password">Confirm Password: *</label>
+        <input type="text" id="fname" name="fname"></input>
+        <br>
+        <label for="Birthday">Birthday:</label>
+        <input type="date" id="date" name="date"></input>
+        <br>
+        <h4>Orientation</h4>
+        <input type="radio" id="Male" name="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="female" name="female" value="female">
+        <label for="female">female</label>
+        <input type="radio" id="Non-Binary" name="Non-Binary" value="Non-Binary">
+        <label for="Non-Binary">Non-Binary</label>
+        <input type="radio" id="NoAnswer" name="NoAnswer" value="NoAnswer">
+        <label for="NoAnswer">I prefer not to answer</label>
+        <h4>A short description about yourself</h4>
+        <br>
+        <input style="box-sizing:border-box;width:60%;height: 150px;border-color: black;border-radius:4px ;"type="textarea" id="textarea" name="textarea" value=""/>
+        <br>
+        <label for="PreferdLanguage">Favorite Language</label>
+        <select name="PreferdLanguage" id="PLang">
+            <option value="Javascript">Javascript</option>
+            <option value="html">html</option>
+            <option value="css">css</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" id="yes" name="yes" value="yes">
+        <label for="yes">Yes, I would like to recieve periodic email updates</label><br>
+        <br>
+        <button type="button" style="height:35px;">Create Account</button>
+        <p><b>* Indicates a required field</b></p>
+    </form>
+
+</body>
+</html>
